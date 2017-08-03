@@ -1,0 +1,20 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+label{
+color: red;
+
+}
+input[type=text] {
+    border: 0.5px solid black;
+    border-radius: 4px;
+}

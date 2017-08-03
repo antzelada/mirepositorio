@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejemplo de formulario</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="MyStyles.css">
+<script type="text/javascript" src="validar.js"></script>
+</head>
+<body>
+
+<h1>Texto en h1</h1>
+<h2>Este es otro texto en h2 ¿se nota la diferencia? </h2>
+
+<p>Este es el tutulo del formulario</p>
+  <label>Nombre:</label> <input type="text" id="Nombre" oninput="chec(this,'mNombre')" onblur="chec(this,'mNombre')"><label id="mNombre"></label><br>
+  <label>Apellido::</label> <input type="text" id="Apellido" oninput="chec(this,'mApellido')" onblur="chec(this,'mApellido')"><label id="mApellido">
+  </label><br>
+  <label>Correo electronico:</label> <input type="text" id="Correo" oninput="checkCorreo(this,'mCorreo')" onblur="checkCorreo(this,'mCorreo'"><label id="mCorreo" ></label><label id="mCorreo">
+  </label><br>
+  <label>Rut:</label> <input type="text" id="rut" onblur="checkRut(this)"><label id="mNrut"></p><br>
+  <input type="submit" name="boton" value="validar">  <br>
+</body>
+
+</html> 
